@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-def update_dictionary(a_dictionary, key, value):
-    a_dictionary[key] = value
-    return a_dictionary
+def multiply_by_2(a_dictionary):
+    new_dict = {}
+    for key in a_dictionary:
+        new_dict[key] = a_dictionary[key] * 2
+    return new_dict
