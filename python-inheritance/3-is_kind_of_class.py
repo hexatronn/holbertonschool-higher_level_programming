@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that checks if an object is an instance of a class or its subclass."""
+"""Module that checks object instance or subclass relationship."""
 
 
 def is_kind_of_class(obj, a_class):
