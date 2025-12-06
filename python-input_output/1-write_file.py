@@ -2,7 +2,7 @@
 """Module that writes and prints a text file."""
 
 
-def read_file(filename=""):
+def write_file(filename="", text=""):
     """Writes a UTF-8 text file and prints it to stdout."""
     with open(filename, "w", encoding="utf-8") as f:
         print(f.write(), end="")
