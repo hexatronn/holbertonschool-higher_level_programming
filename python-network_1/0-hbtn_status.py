@@ -1,11 +1,14 @@
 #!/usr/bin/python3
-"""Fetch https://intranet.hbtn.io/status using urllib and display the response body info."""
+"""
+Fetches the URL https://intranet.hbtn.io/status using urllib
+and displays information about the response body.
+"""
 
 import urllib.request
 
 
 def main():
-    """Send a GET request and print the response body in the required format."""
+    """Send a GET request and print the response body details."""
     url = "https://intranet.hbtn.io/status"
 
     with urllib.request.urlopen(url) as response:
